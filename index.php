@@ -32,7 +32,7 @@
       </p>
       </div>
       <div class="col-md-4">
-        <p><br><button id="boton_video" type="submit" class="btn btn-default btn-block">Enviar</button></p>
+        <p><br><button id="enviar" type="submit" class="btn btn-default btn-block">Enviar</button></p>
       </div>
     </div>
     <div class="row">
@@ -40,43 +40,9 @@
         <p><b>El resultado es: </b></p><p id="resultado1"></p>
       </div>
     </div>
-    <hr>
-    <div class="alert alert-info" role="alert">Ejemplo de 3 selects</div>
-    <p>Elige un vídeo según la lista de reproducción:</p>
-    <div class="row">
-      <div class="col-md-3">
-        <p>Lista de reproducción
-        <select class="form-control">
-        </select></p>
-      </div>
-      <div class="col-md-3">
-        <p>Duración
-        <select class="form-control">
-        </select>
-      </p>
-      </div>
-      <div class="col-md-3">
-        <p>Vídeos
-        <select class="form-control">
-        </select>
-      </p>
-      </div>
-      <div class="col-md-3">
-        <p><br><button type="submit" class="btn btn-default btn-block">Enviar</button></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        <p><b>El resultado es: </b></p><p id="resultado1"></p>
-      </div>
-    </div>
-    <hr>
   </div>
-  <footer class="text-center"><small>Developero <?php echo date('Y');?></small></footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
   </script>
   <script type="text/javascript" src="js/index.js"></script>
-  <script type="text/javascript" src="js/select_2_elementos.js"></script>
-  <script type="text/javascript" src="js/select_3_elementos.js"></script>
 </body>
 </html>
